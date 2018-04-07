@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JSpring10Application {
 
 	public static void main(String[] args) {
+		System.out.println("commit in branch1");
 		SpringApplication.run(JSpring10Application.class, args);
 	}
 }

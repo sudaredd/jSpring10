@@ -10,7 +10,7 @@ public class JSpring10Application {
 	private static final Logger logger = LoggerFactory
             .getLogger(JSpring10Application.class);
 	public static void main(String[] args) {
-		logger.info("commit in master");
+		logger.info("before running");
 		SpringApplication.run(JSpring10Application.class, args);
 	}
 }

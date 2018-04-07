@@ -10,7 +10,7 @@ public class JSpring10Application {
 	private static final Logger logger = LoggerFactory
             .getLogger(JSpring10Application.class);
 	public static void main(String[] args) {
-		logger.info("before running");
+		logger.info("before starting");
 		SpringApplication.run(JSpring10Application.class, args);
 	}
 }
